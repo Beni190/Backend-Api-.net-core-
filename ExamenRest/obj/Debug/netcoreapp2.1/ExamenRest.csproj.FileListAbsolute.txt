@@ -1,0 +1,16 @@
+C:\Users\mario.arias\source\repos\ExamenRest\ExamenRest\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\mario.arias\source\repos\ExamenRest\ExamenRest\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\mario.arias\source\repos\ExamenRest\ExamenRest\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\mario.arias\source\repos\ExamenRest\ExamenRest\bin\Debug\netcoreapp2.1\openapi.yaml
+C:\Users\mario.arias\source\repos\ExamenRest\ExamenRest\bin\Debug\netcoreapp2.1\ExamenRest.deps.json
+C:\Users\mario.arias\source\repos\ExamenRest\ExamenRest\bin\Debug\netcoreapp2.1\ExamenRest.runtimeconfig.json
+C:\Users\mario.arias\source\repos\ExamenRest\ExamenRest\bin\Debug\netcoreapp2.1\ExamenRest.runtimeconfig.dev.json
+C:\Users\mario.arias\source\repos\ExamenRest\ExamenRest\bin\Debug\netcoreapp2.1\ExamenRest.dll
+C:\Users\mario.arias\source\repos\ExamenRest\ExamenRest\obj\Debug\netcoreapp2.1\ExamenRest.AssemblyInfoInputs.cache
+C:\Users\mario.arias\source\repos\ExamenRest\ExamenRest\obj\Debug\netcoreapp2.1\ExamenRest.AssemblyInfo.cs
+C:\Users\mario.arias\source\repos\ExamenRest\ExamenRest\obj\Debug\netcoreapp2.1\ExamenRest.genruntimeconfig.cache
+C:\Users\mario.arias\source\repos\ExamenRest\ExamenRest\obj\Debug\netcoreapp2.1\ExamenRest.csprojAssemblyReference.cache
+C:\Users\mario.arias\source\repos\ExamenRest\ExamenRest\bin\Debug\netcoreapp2.1\ExamenRest.pdb
+C:\Users\mario.arias\source\repos\ExamenRest\ExamenRest\obj\Debug\netcoreapp2.1\ExamenRest.dll
+C:\Users\mario.arias\source\repos\ExamenRest\ExamenRest\obj\Debug\netcoreapp2.1\ExamenRest.pdb
+C:\Users\mario.arias\source\repos\ExamenRest\ExamenRest\obj\Debug\netcoreapp2.1\ExamenRest.csproj.CoreCompileInputs.cache

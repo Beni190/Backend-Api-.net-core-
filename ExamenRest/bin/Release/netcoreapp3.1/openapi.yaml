@@ -1,0 +1,155 @@
+x-google-allow: all
+swagger: '2.0'
+info:
+  version: '1.0'
+  title: Rest Api
+  contact: {}
+host: examen-277900.appspot.com
+schemes:
+- https
+- http
+consumes:
+- application/json
+produces:
+- application/json
+paths:
+  /api/CodigosPostales:
+    get:
+      description: ''
+      summary: ApiCodigosPostales_GET
+      tags:
+      - CodigosPostales
+      operationId: ApiCodigosPostales_GET
+      deprecated: false
+      produces:
+      - application/json
+      parameters: []
+      responses:
+        200:
+          description: Success
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/CodigosPostales'
+          headers: {}
+    post:
+      description: ''
+      summary: ApiCodigosPostales_POST
+      tags:
+      - CodigosPostales
+      operationId: ApiCodigosPostales_POST
+      deprecated: false
+      produces:
+      - application/json
+      consumes:
+      - application/json
+      parameters:
+      - name: body
+        in: body
+        required: false
+        description: ''
+        schema:
+          $ref: '#/definitions/CodigosPostales'
+      responses:
+        200:
+          description: Success
+          schema:
+            $ref: '#/definitions/CodigosPostales'
+          headers: {}
+  /api/CodigosPostales/{id}:
+    get:
+      description: ''
+      summary: ApiCodigosPostalesById_GET
+      tags:
+      - CodigosPostales
+      operationId: ApiCodigosPostalesById_GET
+      deprecated: false
+      produces:
+      - application/json
+      parameters:
+      - name: id
+        in: path
+        required: true
+        type: string
+        description: ''
+      responses:
+        200:
+          description: Success
+          schema:
+            $ref: '#/definitions/CodigosPostales'
+          headers: {}
+    put:
+      description: ''
+      summary: ApiCodigosPostalesById_PUT
+      tags:
+      - CodigosPostales
+      operationId: ApiCodigosPostalesById_PUT
+      deprecated: false
+      produces:
+      - application/json
+      consumes:
+      - application/json
+      parameters:
+      - name: id
+        in: path
+        required: true
+        type: integer
+        format: int32
+        description: ''
+      - name: body
+        in: body
+        required: false
+        description: ''
+        schema:
+          $ref: '#/definitions/CodigosPostales'
+      responses:
+        200:
+          description: Success
+          headers: {}
+    delete:
+      description: ''
+      summary: ApiCodigosPostalesById_DELETE
+      tags:
+      - CodigosPostales
+      operationId: ApiCodigosPostalesById_DELETE
+      deprecated: false
+      produces:
+      - application/json
+      parameters:
+      - name: id
+        in: path
+        required: true
+        type: integer
+        format: int32
+        description: ''
+      responses:
+        200:
+          description: Success
+          schema:
+            $ref: '#/definitions/CodigosPostales'
+          headers: {}
+definitions:
+  CodigosPostales:
+    title: CodigosPostales
+    type: object
+    properties:
+      idPostal:
+        type: integer
+        format: int32
+      codigoPostal:
+        type: string
+      asentamientoPostal:
+        type: string
+      tipoAsentamientoPostal:
+        type: string
+      municipioPostal:
+        type: string
+      estadoPostal:
+        type: string
+      ciudadPostal:
+        type: string
+      zonaPostal:
+        type: string
+tags:
+- name: CodigosPostales
+  description: ''

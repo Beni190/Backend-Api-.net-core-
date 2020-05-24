@@ -1,0 +1,160 @@
+openapi: 3.0.1
+service: api
+runtime: custom
+env: flex
+info:
+  title: Rest Api
+  version: v1
+host: examen-277900.appspot.com
+paths:
+  /api/CodigosPostales:
+    get:
+      tags:
+        - CodigosPostales
+      responses:
+        '200':
+          description: Success
+          content:
+            text/plain:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/CodigosPostales'
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/CodigosPostales'
+            text/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/CodigosPostales'
+    post:
+      tags:
+        - CodigosPostales
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CodigosPostales'
+          text/json:
+            schema:
+              $ref: '#/components/schemas/CodigosPostales'
+          application/*+json:
+            schema:
+              $ref: '#/components/schemas/CodigosPostales'
+      responses:
+        '200':
+          description: Success
+          content:
+            text/plain:
+              schema:
+                $ref: '#/components/schemas/CodigosPostales'
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CodigosPostales'
+            text/json:
+              schema:
+                $ref: '#/components/schemas/CodigosPostales'
+  '/api/CodigosPostales/{id}':
+    get:
+      tags:
+        - CodigosPostales
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            nullable: true
+      responses:
+        '200':
+          description: Success
+          content:
+            text/plain:
+              schema:
+                $ref: '#/components/schemas/CodigosPostales'
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CodigosPostales'
+            text/json:
+              schema:
+                $ref: '#/components/schemas/CodigosPostales'
+    put:
+      tags:
+        - CodigosPostales
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+            format: int32
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CodigosPostales'
+          text/json:
+            schema:
+              $ref: '#/components/schemas/CodigosPostales'
+          application/*+json:
+            schema:
+              $ref: '#/components/schemas/CodigosPostales'
+      responses:
+        '200':
+          description: Success
+    delete:
+      tags:
+        - CodigosPostales
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+            format: int32
+      responses:
+        '200':
+          description: Success
+          content:
+            text/plain:
+              schema:
+                $ref: '#/components/schemas/CodigosPostales'
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CodigosPostales'
+            text/json:
+              schema:
+                $ref: '#/components/schemas/CodigosPostales'
+components:
+  schemas:
+    CodigosPostales:
+      type: object
+      properties:
+        idPostal:
+          type: integer
+          format: int32
+        codigoPostal:
+          type: string
+          nullable: true
+        asentamientoPostal:
+          type: string
+          nullable: true
+        tipoAsentamientoPostal:
+          type: string
+          nullable: true
+        municipioPostal:
+          type: string
+          nullable: true
+        estadoPostal:
+          type: string
+          nullable: true
+        ciudadPostal:
+          type: string
+          nullable: true
+        zonaPostal:
+          type: string
+          nullable: true
+      additionalProperties: false

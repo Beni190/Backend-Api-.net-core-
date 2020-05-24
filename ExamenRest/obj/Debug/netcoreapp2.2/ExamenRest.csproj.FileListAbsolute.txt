@@ -1,0 +1,4 @@
+C:\Users\mario.arias\source\repos\ExamenRest\ExamenRest\obj\Debug\netcoreapp2.2\ExamenRest.csprojAssemblyReference.cache
+C:\Users\mario.arias\source\repos\ExamenRest\ExamenRest\obj\Debug\netcoreapp2.2\ExamenRest.AssemblyInfoInputs.cache
+C:\Users\mario.arias\source\repos\ExamenRest\ExamenRest\obj\Debug\netcoreapp2.2\ExamenRest.AssemblyInfo.cs
+C:\Users\mario.arias\source\repos\ExamenRest\ExamenRest\obj\Debug\netcoreapp2.2\ExamenRest.csproj.CoreCompileInputs.cache
